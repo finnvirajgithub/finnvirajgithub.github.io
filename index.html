@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sameera Rajapakshe - Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <span class="brand-text">SR</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home" style="color: black;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" style="color: black;">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects" style="color: black;">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills" style="color: black;">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" style="color: black;">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h1><i class="fas fa-code"></i> Welcome to my world</h1>
+                    <h2>Hi, I'm <span class="highlight">Sameera Rajapakshe</span></h2>
+                    <h3><span id="typed-text"></span></h3>
+                    <p><i class="fas fa-university"></i> IT Undergraduate at University of Colombo</p>
+                    <div class="social-links">
+                        <a href="https://github.com/finnvirajgithub" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="www.linkedin.com/in/sameera-rajapakshe" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:svirajrajapaksha18@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="profile-container">
+                        <div class="profile-background"></div>
+                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/84305394.jpg-hpbdjm3seAnn94ijL90NoiMNYdH5mW.jpeg" alt="Profile" class="img-fluid rounded-circle profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="row">
+                <div class="col-lg-12" data-aos="fade-up">
+                    <p class="about-text" style="color: black;">
+                        I am a third-year IT undergraduate with a passion for software engineering and problem-solving. 
+                        Skilled in Java, MERN stack, and React Native, I prioritize clean coding, collaboration, and 
+                        ethical development. I am eager to gain industry experience through an internship, contribute 
+                        to impactful solutions, and grow my expertise as I work toward becoming a successful software engineer.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Projects</h2>
+            <div class="row">
+                <!-- Gymnasium Management System -->
+                <div class="col-lg-4 mb-4" data-aos="fade-up">
+                    <div class="project-card">
+                        <i class="fas fa-dumbbell fa-2x mb-3 text-primary"></i>
+                        <h3>Gymnasium Management System</h3>
+                        <p>A comprehensive system for managing gym operations including workouts, coaches, and an integrated online store.</p>
+                        <div class="tech-stack">
+                            <span><i class="fab fa-node-js"></i> Node.js</span>
+                            <span><i class="fas fa-server"></i> Express</span>
+                            <span><i class="fas fa-database"></i> MongoDB</span>
+                        </div>
+                        <a href="https://github.com/finnvirajgithub/Gymnasium-managment-system" class="btn btn-primary" target="_blank">
+                            <i class="fab fa-github"></i> View Project
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Calendar Application -->
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <i class="far fa-calendar-alt fa-2x mb-3 text-primary"></i>
+                        <h3>Calendar Application</h3>
+                        <p>A Java-based Calendar Application with Firebase integration for real-time event management.</p>
+                        <div class="tech-stack">
+                            <span><i class="fab fa-java"></i> Java</span>
+                            <span><i class="fas fa-fire"></i> Firebase</span>
+                            <span><i class="fab fa-android"></i> Android</span>
+                        </div>
+                        <a href="https://github.com/finnvirajgithub/My-Calander-App" class="btn btn-primary" target="_blank">
+                            <i class="fab fa-github"></i> View Project
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Patient Appointment System -->
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <i class="fas fa-hospital-user fa-2x mb-3 text-primary"></i>
+                        <h3>Patient Appointment System</h3>
+                        <p>A web-based system for managing patient appointments and doctor schedules at a clinic.</p>
+                        <div class="tech-stack">
+                            <span><i class="fab fa-php"></i> PHP</span>
+                            <span><i class="fas fa-database"></i> MySQL</span>
+                            <span><i class="fab fa-html5"></i> HTML/CSS</span>
+                        </div>
+                        <a href="https://github.com/finnvirajgithub/Patient-Appointment-System" class="btn btn-primary" target="_blank">
+                            <i class="fab fa-github"></i> View Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Skills & Tools</h2>
+            <div class="skills-container">
+                <div class="skills-grid" data-aos="fade-up">
+                    <div class="skill-item">
+                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/js-daPDFujflkVeIhJkPorPVJiO5wOxCb.png" alt="JavaScript" class="skill-icon">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/expressjs-dcCeU01MYzAVeZabHJj6el1To2locJ.png" alt="Express.js" class="skill-icon">
+                        <p>Express.js</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/spring-boot-logo-w4GUznWcHvus13wjP1oUxlzEGMe065.png" alt="Spring Boot" class="skill-icon">
+                        <p>Spring Boot</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/java-zMCYhRKiOAziLgBPoRc9MIctCTyriz.jpeg" alt="Java" class="skill-icon">
+                        <p>Java</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/html-Q9zpnGecFeHZA240O06bfcp71KIt9a.webp" alt="HTML5" class="skill-icon">
+                        <p>HTML5</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/php-Siv5Au4FXN75xpzAOLI2NdSNQBkPWy.png" alt="PHP" class="skill-icon">
+                        <p>PHP</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mysql-lFK4TiVKWjgP0wuFAVxLmBBoKXWBZC.png" alt="MySQL" class="skill-icon">
+                        <p>MySQL</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/css-kKBdi4oqv1L0jvJ5z3R6OerjorWquU.png" alt="CSS3" class="skill-icon">
+                        <p>CSS3</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/github-S1sjBJb3poguFgoPKVOK2iYgZZ3ka0.png" alt="GitHub" class="skill-icon">
+                        <p>GitHub</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/docker-iztciVBQhStdYBG8RvvlLcOcJyEnGK.png" alt="Docker" class="skill-icon">
+                        <p>Docker</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Contact Me</h2>
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-up">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <p style="color:  #007bff;">svirajrajapaksha18@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <p style="color:  #007bff;">+94755166904</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <p style="color:  #007bff;">github.com/finnvirajgithub</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <p style="color:  #007bff;">linkedin.com/in/sameera-rajapakshe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <form id="contact-form" class="contact-form">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Sameera Rajapakshe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
