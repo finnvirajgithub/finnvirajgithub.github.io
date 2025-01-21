@@ -117,6 +117,13 @@ document.addEventListener('DOMContentLoaded', function() {
             submitButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
             submitButton.disabled = true;
 
+            let params = {
+                name : document.getElementById("name").value,
+                email : document.getElementById("email").value,
+                message : document.getElementById("message").value,
+            }
+            emailjs.send("service_dlqivnr","template_l0dzo6o",params)
+
             // Simulate form submission
             setTimeout(() => {
                 alert('Thank you for your message! I will get back to you soon.');
@@ -125,6 +132,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 submitButton.disabled = false;
             }, 1500);
         });
+    }
+
+    // send email
+    function sendMail(){
+        let params = {
+            name : document.getElementById("name").value,
+            email : document.getElementById("email").value,
+            message : document.getElementById("message").value,
+        }
+        emailjs.send("service_dlqivnr","template_l0dzo6o",params)
     }
 
     // Skills Animation
@@ -164,4 +181,3 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-
