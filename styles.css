@@ -363,6 +363,10 @@ body {
     padding: 0.5rem 1rem;
   }
 
+  .about-text{
+    text-align: center;
+  }
+
   .navbar-nav {
     background: white;
     padding: 1rem;
