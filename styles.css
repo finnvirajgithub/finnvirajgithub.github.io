@@ -367,6 +367,10 @@ body {
     text-align: center;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   .navbar-nav {
     background: white;
     padding: 1rem;
